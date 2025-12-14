@@ -16,7 +16,7 @@ class StudentController extends Controller
         Student::create([
             'student_name' => $request->studentName ,
             'student_email' => $request->email,
-            'student_dob' => $request->dob
+            'student_dob' => $request->studentDOB
         ]);
 
 
